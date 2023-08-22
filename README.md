@@ -9,16 +9,33 @@ Ceci est le Premier exercice pour HTML/CSS
 ## Tâches
 
 1. Cloner le projet gitHub :
+
    - Ouvrir vscode
    - Ouvrir le terminal
    - Se déplacer dans le workspace et le dossier de HTML
    - Exécuter cette commande : `git clone https://github.com/chaldrak/html-css-exo-1.git`
 
-- [x] Élément 1, coché
-- [ ] Élément 2, non-coché
-  - [x] Sous-élément 2.1, coché
-  - [ ] Sous-élément 2.2, non-coché
-- [ ] Élément 3, non-coché
+2. Ouvrir à présent le projet dont le nom est `html-css-exo-1`
+
+3. Entrer dans le terminal du vscode et créer une nouvelle branche `git checkout -b dev`
+
+4. Ajouter un remote : `git remote add html-exo-1 https://github.com/chaldrak/html-css-exo-1.git`
+
+5. Mettre le code necessaire dans le `index.html` puis lier le fichier `styles.css` se trouvant dans le sous-dossier css et du dossier assets.
+
+6. Changer le titre de la page en `Mon premier CV`
+
+7. Ajouter un favicon : l'icon est dans assets/images et son nom est `favicon.png`
+
+8. Les autres images necessaires sont dans le dossier assets/images. Bien respecter les chemins de chaque images pour éviter des erreurs.
+
+9. Faire régulièrement des commits et des push. Pour ça respecter les commandes ci-dessous
+
+```
+    git add .
+    git commit -m "mettre ici le message du commit"
+    git push html-exo-1 dev
+```
 
 ## Résultat en sortie
 
