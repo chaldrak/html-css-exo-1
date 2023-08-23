@@ -10,7 +10,7 @@ body {
 
 .wrapper {
   width: 100%;
-  height: 300vh;
+  height: 250vh;
   display: flex;
 }
 
@@ -36,19 +36,49 @@ body {
 }
 
 .imag-container {
-  width: 100%;
+  width: 250px;
   text-align: center;
   border-radius: 50%;
+  height: 250px;
+  overflow: hidden;
 }
 .contact {
   margin-top: 30px;
   text-align: left;
 }
-.number {
-  text-align: left;
+.contactnumber1 img {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  width: 20px;
+}
+.contactnumber2 img {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  width: 20px;
+}
+.contactnumber3 img {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  width: 20px;
 }
 
 .contact h1 h2 h3 h4 {
   font-family: Arial;
   font-size: 10px;
+}
+.paragraphe3 {
+  margin-left: 14px;
+}
+.paragraphe4 img {
+  width: 50px;
+  height: 50px;
+  margin: 15px;
+}
+.paragraphe5 img {
+  width: 50px;
+  height: 50px;
+  margin: 15px;
 }
