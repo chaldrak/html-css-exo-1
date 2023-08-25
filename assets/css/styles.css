@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Kreon:wght@300;400;500;600;700&family=Ysabeau+Infant:ital,wght@0,1;0,100;0,300;1,300&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -10,15 +12,16 @@ body {
 
 .wrapper {
   width: 100%;
-  height: 250vh;
+  height: auto;
   display: flex;
 }
 
 .general {
-  width: 100%;
+  width: 65%;
   display: flex;
   margin: 10px;
   padding: 10px;
+  height: auto;
 }
 
 .left-side {
@@ -26,6 +29,7 @@ body {
   height: 100%;
   padding: 50px 50px;
   background-color: white;
+  text-align: justify;
 }
 
 .right-side {
@@ -33,6 +37,7 @@ body {
   height: 100%;
   padding: 50px 50px;
   background-color: #d9e7f0;
+  text-align: justify;
 }
 
 .imag-container {
@@ -46,41 +51,43 @@ body {
   margin-top: 30px;
   text-align: left;
 }
+.contactnumber1,
+.contactnumber2,
+.contactnumber3 {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  width: 20px;
+}
 .contactnumber1 img {
-  display: flex;
-  align-items: center;
-  font-size: 13px;
+  margin-right: 10px;
   width: 20px;
-}
-.contactnumber2 img {
-  display: flex;
-  align-items: center;
-  font-size: 15px;
-  width: 20px;
-}
-.contactnumber3 img {
-  display: flex;
-  align-items: center;
-  font-size: 15px;
-  width: 20px;
+  margin-bottom: 10px;
 }
 
-.contact h1 h2 h3 h4 {
-  font-family: Arial;
-  font-size: 10px;
+.contactnumber2 img {
+  margin-right: 10px;
+  width: 20px;
+  margin-bottom: 10px;
+}
+.contactnumber3 img {
+  margin-right: 10px;
+  width: 20px;
+  margin-bottom: 10px;
 }
 .paragraphe3 {
-  margin-left: 14px;
+  margin-left: 50px;
+  font-size: 14px;
 }
 .paragraphe4 img {
   width: 45px;
-  height: 50px;
-  margin: 15px;
+  height: 45px;
+  margin-right: 30px;
 }
 .paragraphe5 img {
   width: 45px;
-  height: 50px;
-  margin: 15px;
+  height: 45px;
+  margin-right: 30px;
 }
 
 .contact {
@@ -98,6 +105,7 @@ body {
   width: 70%;
   background-color: #fff;
   font-size: 20px;
+  color: #3f4855;
   font-weight: bold;
 }
 .h4right h5 {
@@ -130,5 +138,57 @@ body {
 .para3,
 .para4,
 .para5 {
+  margin-left: 15px;
+}
+.langue1 {
+  width: 50%;
+  height: 12px;
+  background-color: #d9e7f0;
+  position: relative;
+  display: flex;
+  border-radius: 20px;
+}
+.langue2 {
+  width: 30%;
+  height: 12px;
+  background-color: #d9e7f0;
+  position: relative;
+  display: flex;
+  border-radius: 20px;
+  text-align: center;
+}
+.langue3 {
+  width: 20%;
+  height: 12px;
+  background-color: #d9e7f0;
+  position: relative;
+  display: flex;
+  border-radius: 20px;
+}
+.contact,
+.h2,
+.h3,
+.h4,
+.h1right,
+.para1,
+.education {
+  font-family: "Ysabeau Infant", sans-serif;
+  font-size: 18px;
+}
+.h1 {
+  font-family: "Ysabeau Infant", sans-serif;
+  font-size: 13px;
+}
+.h4right h5 {
+  font-family: "Ysabeau Infant", sans-serif;
+  font-size: 16px;
+  color: #3f4855;
+}
+.h5right h6 {
+  font-family: "Ysabeau Infant", sans-serif;
+  font-size: 16px;
+  color: #3f4855;
+}
+.h0right ul {
   margin-left: 15px;
 }
