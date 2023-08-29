@@ -136,30 +136,24 @@ body {
 .para5 {
   margin-left: 15px;
 }
-.langue1 {
+.langue {
+  display: flex;
+  align-items: center;
+}
+.langue .progress {
+  height: 12px;
+  background-color: #d9e7f0;
+  border-radius: 20px;
+  margin-left: 25px;
+}
+.langue .progress.width1 {
   width: 50%;
-  height: 12px;
-  background-color: #d9e7f0;
-  position: relative;
-  display: flex;
-  border-radius: 20px;
 }
-.langue2 {
+.langue .progress.width2 {
+  width: 40%;
+}
+.langue .progress.width3 {
   width: 30%;
-  height: 12px;
-  background-color: #d9e7f0;
-  position: relative;
-  display: flex;
-  border-radius: 20px;
-  text-align: center;
-}
-.langue3 {
-  width: 20%;
-  height: 12px;
-  background-color: #d9e7f0;
-  position: relative;
-  display: flex;
-  border-radius: 20px;
 }
 .contact,
 .lang,
