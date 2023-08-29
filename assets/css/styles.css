@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Kreon:wght@300;400;500;600;700&family=Ysabeau+Infant:ital,wght@0,1;0,100;0,300;1,300&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Inconsolata:wght@300&family=Kreon:wght@300;400;500;600;700&family=Ysabeau+Infant:ital,wght@0,1;0,100;0,300;1,300&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -41,11 +40,13 @@ body {
 }
 
 .imag-container {
-  width: 250px;
+  width: 100%;
+  text-align: center;
+  height: auto;
+}
+.imag-container img {
   text-align: center;
   border-radius: 50%;
-  height: 250px;
-  overflow: hidden;
 }
 .contact {
   margin-top: 30px;
@@ -58,6 +59,9 @@ body {
   align-items: center;
   font-size: 15px;
   width: 20px;
+}
+.contactnumber1 p {
+  white-space: nowrap;
 }
 .contactnumber1 img {
   margin-right: 10px;
@@ -126,14 +130,6 @@ body {
   font-size: 20px;
   font-weight: bold;
 }
-.h0right p {
-  font-size: 18px;
-  font-weight: bolder;
-}
-.h0right .titrh0 {
-  font-size: 12px;
-  font-weight: bolder;
-}
 .para2,
 .para3,
 .para4,
@@ -166,19 +162,15 @@ body {
   border-radius: 20px;
 }
 .contact,
-.h2,
+.lang,
 .h3,
 .h4,
-.h1right,
 .para1,
-.education {
+.education,
+.h1right {
   font-family: "Ysabeau Infant", sans-serif;
-  font-size: 18px;
 }
-.h1 {
-  font-family: "Ysabeau Infant", sans-serif;
-  font-size: 13px;
-}
+
 .h4right h5 {
   font-family: "Ysabeau Infant", sans-serif;
   font-size: 16px;
@@ -189,13 +181,64 @@ body {
   font-size: 16px;
   color: #3f4855;
 }
-.h0right ul {
-  margin-left: 15px;
-}
-.h0right .normal {
-  font-size: 15px;
-  font-weight: normal;
-}
+
 .paragraphe1 {
   text-align: justify;
+}
+.h2right h2 {
+  font-size: 15px;
+}
+.lang,
+.cont,
+.objt,
+.ski,
+.int {
+  font-size: 25px;
+  font-family: "Ysabeau Infant", sans-serif;
+}
+.h1right {
+  font-size: 20px;
+  font-weight: 20px;
+}
+.titrh4,
+.titrh5 {
+  font-weight: bold;
+}
+#fry {
+  font-weight: bold;
+  font-size: 18px;
+}
+#pop {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.trx0,
+.trx1,
+.trx2,
+.trx3,
+.trx4 {
+  color: #a2abb4;
+}
+.marg1,
+.marg2 {
+  margin-left: 15px;
+}
+.contactnumber1,
+.contactnumber2,
+.contactnumber3,
+.paragraphe1,
+.paragraphe3,
+.calif,
+.para1,
+.para2,
+.losan,
+.para3,
+.para4,
+.normal,
+.marg1,
+.marg2,
+.connec,
+.para5 {
+  font-family: "Acme", sans-serif;
 }
